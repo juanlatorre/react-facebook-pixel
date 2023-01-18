@@ -25,7 +25,7 @@ module.exports = {
     extensions: ['*', '.js'],
   },
   devServer: {
-    contentBase: './demo',
+    static: './demo',
     historyApiFallback: true,
     compress: false,
     host: process.env.IP || '0.0.0.0',
